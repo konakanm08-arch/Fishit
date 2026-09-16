@@ -1,11 +1,11 @@
--- VOID TOTAL DELAY 5 MENIT
--- Aktif setelah 300 detik (5 menit)
+-- VOID TOTAL DELAY 3 MENIT
+-- Aktif setelah 180 detik (3 menit)
 
 getgenv().VoidDelay = true
 
 task.spawn(function()
     local plr = game.Players.LocalPlayer
-    local delayMenit = 5 -- ganti kalo mau 10 menit dll
+    local delayMenit = 3 -- ganti kalo mau 10 menit dll
     
     print("⏳ VOID DELAY AKTIF - Bakal hajar semua dalam "..delayMenit.." menit")
     
